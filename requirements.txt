@@ -69,3 +69,4 @@ xlrd                      2.0.2 # Excel 파일 읽기
 openpyxl==3.1.2         # Excel 파일 쓰기
 lightgbm==4.0.0          # LightGBM 모델 학습
 tensorflow==2.14.0          # TensorFlow 모델 학습
+streamlit
