@@ -7,7 +7,6 @@ optuna==4.4.0
 optuna-integration[xgboost]
 prophet==1.1.5
 cmdstanpy
-tensorflow==2.14.0
 openpyxl==3.1.2
 xlrd==2.0.1
 openai==0.28.0
