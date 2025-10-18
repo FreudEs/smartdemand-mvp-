@@ -24,9 +24,21 @@ SmartDemand는 중소상공인을 위한 **AI 기반 수요예측 웹 서비스*
 - **예측 성능 평가**: 단순 지수 평활법 등 전통 모델 대비 오차율 3~5% 수준의 성능 입증
 
 ---
-SmartDemand 다운로드 및 설치 방법
-윈도우 환경
 
+## 💻 사용 방법
+
+1. 웹사이트 접속 (Streamlit Cloud 배포 링크 예정)
+2. 샘플 데이터를 업로드하거나, 본인 POS 데이터를 사용
+3. 예측 결과 확인 및 PDF 다운로드
+4. GPT 기반 해설로 경영 인사이트 확보
+
+---
+
+# SmartDemand 다운로드 및 설치 방법
+
+## 윈도우 환경
+
+```bash
 # Git 설치: https://git-scm.com/download/win 에서 설치 후
 
 # 명령 프롬프트 또는 PowerShell 실행
@@ -37,8 +49,13 @@ python -m venv .venv
 pip install -r requirements.txt
 
 streamlit run app.py
-우분투 (Linux) 환경
+```
 
+---
+
+## 우분투 (Linux) 환경
+
+```bash
 sudo apt update
 sudo apt install -y git python3-venv python3-pip
 
@@ -49,15 +66,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 streamlit run app.py
-
-## 💻 사용 방법
-
-1. 웹사이트 접속 (Streamlit Cloud 배포 링크 예정)
-2. 샘플 데이터를 업로드하거나, 본인 POS 데이터를 사용
-3. 예측 결과 확인 및 PDF 다운로드
-4. GPT 기반 해설로 경영 인사이트 확보
-
----
+```
 
 ## 🛠 기술 스택
 
@@ -83,4 +92,3 @@ FreudEs (Project Owner)
 📜 블로그: https://freudes.tistory.com
 
 ---
-
