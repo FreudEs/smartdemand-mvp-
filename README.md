@@ -24,6 +24,31 @@ SmartDemand는 중소상공인을 위한 **AI 기반 수요예측 웹 서비스*
 - **예측 성능 평가**: 단순 지수 평활법 등 전통 모델 대비 오차율 3~5% 수준의 성능 입증
 
 ---
+SmartDemand 다운로드 및 설치 방법
+윈도우 환경
+
+# Git 설치: https://git-scm.com/download/win 에서 설치 후
+
+# 명령 프롬프트 또는 PowerShell 실행
+git clone https://github.com/DALB1T/smartdemand.git
+cd smartdemand
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+
+streamlit run app.py
+우분투 (Linux) 환경
+
+sudo apt update
+sudo apt install -y git python3-venv python3-pip
+
+git clone https://github.com/DALB1T/smartdemand.git
+cd smartdemand
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+streamlit run app.py
 
 ## 💻 사용 방법
 
